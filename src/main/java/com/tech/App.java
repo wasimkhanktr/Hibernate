@@ -9,7 +9,6 @@ import hibernateEntities.User;
 public class App {
     public static void main(String[] args) {
         User user = new User();
-        user.setId(1);
         user.setName("Wasim");
         user.setEmail("wasimkhanktr@gmail.com");
         user.setPassword("123");
